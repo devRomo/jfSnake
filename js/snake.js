@@ -153,7 +153,7 @@ Game.Draw = function(context, snake) {
 
     // Check Collision
     if (this.collision(nx, ny) == true) {
-      // alert("Game Over Your score is " + snake.stage.score);
+      alert("Game Over Your score is " + snake.stage.score);
       snake.restart();
       return;
     }
