@@ -1,0 +1,22 @@
+body {
+  text-align:center;
+  font-family: 'Port Lligat Slab', serif;
+  color: #B73D17;
+  font-size: 1.5em;
+}
+canvas {
+  margin-top: 50px;
+  border: 2px solid #B73D17;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 480px;
+  height: 360px;
+}
+
+.snakeImg img{
+  position: absolute;
+  z-index: -100;
+  width: 35%;
+  margin-top: -500px;
+  margin-left: -425px;
+
+}
